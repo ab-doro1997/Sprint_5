@@ -1,6 +1,23 @@
-.idea/
-.pytest_cache/
-.venv/
+# Python bytecode files
 __pycache__/
-*.pyc
+*.py[cod]
+
+# PyCharm project files
+.idea/
+
+# Virtual environment
+.venv/
+
+# pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+
+# Test data or other personal files
+test_data/
+
+# Operating system files
+.DS_Store
+Thumbs.db
 
